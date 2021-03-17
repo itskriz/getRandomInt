@@ -52,12 +52,9 @@ Generate an integer from 1 through 10 except 4, 5, and 6.
 
 Fetch a random item from an array excluding the previously chosen item.
 
-`
+```
 let lastItem = false;
-
 while (looping) {
-
   randomItem = items[getRandomInt(0, items.length -1, lastItem)];
-
 }
-`
+```
