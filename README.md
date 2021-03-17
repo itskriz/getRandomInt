@@ -34,16 +34,16 @@ Having run into a few scenarios where I've needed to generate a random number in
 
 Generate an integer from 1 through 10.
 
-`getRandomInt(1, 10);`
+`getRandomInt(1, 10)`
 
 ### Example 2: Excluding an integer
 
 Generate an integer from 1 through 10 except 5.
 
-`getRandomInt(1, 10, 5);`
+`getRandomInt(1, 10, 5)`
 
 ### Example 3: Excluding multiple integers
 
 Generate an integer from 1 through 10 except 4, 5, and 6.
 
-`getRandomInt(1, 10, [4, 5, 6]);`
+`getRandomInt(1, 10, [4, 5, 6])`
