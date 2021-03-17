@@ -12,15 +12,15 @@ Having run into a few scenarios where I've needed to generate a random number in
 
 ### Parameters
 
-*min*
+**min**
 
 `int`: *(Optional)* The minimum value of the range. **Default value is 0.**
 
-*max*
+**max**
 
 `int`: *(Optional)* The maximum value of the range. **Default value is 1.**
 
-*exclude*
+**exclude**
 
 `int|array`: *(Optional)* The integer(s) that should be excluded. **Default value is false.**
 
