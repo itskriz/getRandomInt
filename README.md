@@ -77,7 +77,7 @@ while (looping) {
 Having run into a few scenarios where I've needed to generate a random number in a range repeatedly without getting the same results twice or more, I decided I needed an elegant solution to do so that I could repeat anywhere. **getRandomInt** is that result.
 
 ## Notes/Issues
-It occurs to me there may be a number of ways to break this and that I may need to script failsafes in this to prevent that. For instance, I suspect this could lead to a no good, very bad time if all possible outcomes are excluded from the result.
+It occurs to me there may be a number of ways to break this and that I may need to script failsafes in this to prevent that. For instance, I suspect this could lead to a no good, very bad time if all possible outcomes are excluded from the result. Ie: `getRandomInt(0, 1, [0,1])`
 
 ## License
 
