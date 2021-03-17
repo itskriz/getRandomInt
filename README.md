@@ -7,23 +7,38 @@ Having run into a few scenarios where I've needed to generate a random number in
 ## How to Use
 
 ### Syntax
+
 `getRandomInt(int min, int max, int|array exclude)`
 
 ### Parameters
 `min`
 
-An integer. **Default value is 0**
+An integer. **Default value is 0.**
 
 `max`
 
-An integer. **Default value is 1**
+An integer. **Default value is 1.**
 
 `exclude`
 
-An integer or array. **Default value is false**
+An integer or array. **Default value is false.**
 
 ## Examples
 
-### 1
-Generate a number from 1 through 10.
-`getRandomInt(1, 10);1
+### Example 1: Simple usage
+
+Generate an integer from 1 through 10.
+
+`getRandomInt(1, 10);`
+
+### Example 2: Excluding an integer
+
+Generate an integer from 1 through 10 except 5.
+
+`getRandomInt(1, 10, 5);`
+
+### Example 3:
+
+Generate an integer from 1 through 10 except 4, 5, and 6.
+
+`getRandomInt(1, 10, [4, 5, 6]);`
