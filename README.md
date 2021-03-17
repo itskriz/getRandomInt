@@ -25,7 +25,7 @@ An integer or array. **Default value is false.**
 
 ### Return
 
-`int` An integer from within range *min*-*max* excluding any integers in *exclude*.
+`int`: An integer from within range `min` through `max` excluding any integers in `exclude`.
 
 ## Examples
 
