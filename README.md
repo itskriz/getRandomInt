@@ -11,17 +11,18 @@ Having run into a few scenarios where I've needed to generate a random number in
 `getRandomInt(int min, int max, int|array exclude)`
 
 ### Parameters
-`min`
 
-An integer. **Default value is 0.**
+*min*
 
-`max`
+`int`: *(Optional)* The minimum value of the range. **Default value is 0.**
 
-An integer. **Default value is 1.**
+*max*
 
-`exclude`
+`int`: *(Optional)* The maximum value of the range. **Default value is 1.**
 
-An integer or array. **Default value is false.**
+*exclude*
+
+`int|array`: *(Optional)* The integer(s) that should be excluded. **Default value is false.**
 
 ### Return
 
