@@ -48,13 +48,30 @@ Generate an integer from 1 through 10 except 4, 5, and 6.
 
 `getRandomInt(1, 10, [4, 5, 6])`
 
-### Example 4: Using loops
+### Example 4: Simple Loops
 
-Fetch a random item from an array excluding the previously chosen item.
+Looping to fetch a random item from an array excluding the previously chosen item.
 
 ```
-let lastItem = false;
+lastItem = false;
 while (looping) {
   randomItem = items[getRandomInt(0, items.length -1, lastItem)];
 }
 ```
+
+### Example 5: Advanced Loops
+
+Generating random integers in a loop and excluding the last 5 results.
+
+```
+lastItems = [];
+while (looping) {
+  randomItem = items[getRandomInt(0, items.length -1, lastItems)];
+  lastItems.push(randomItem);
+  if (lastItems.length > 5) {
+    lastItems.shift();
+  }
+}
+```
+
+
