@@ -11,10 +11,15 @@ Having run into a few scenarios where I've needed to generate a random number in
 
 ### Parameters
 `min`
+
 An integer. **Default value is 0**
+
 `max`
+
 An integer. **Default value is 1**
+
 `exclude`
+
 An integer or array. **Default value is false**
 
 ## Examples
