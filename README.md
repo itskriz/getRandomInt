@@ -54,10 +54,11 @@ Generate an integer from 1 through 10 except 4, 5, and 6.
 Looping to fetch a random item from an array excluding the previously chosen item.
 
 ```
-lastItem = false;
+let lastItem = false;
 while (looping) {
-  randomItem = items[getRandomInt(0, items.length - 1, lastItem)];
-  lastItem = randomItem;
+  let randomInt = getRandomInt(0, items.length - 1, lastItem);
+  let randomItem = items[randomInt];
+  lastItem = randomInt;
 }
 ```
 
@@ -66,10 +67,11 @@ while (looping) {
 Generating random integers in a loop and excluding the last 5 results.
 
 ```
-lastItems = [];
+let lastItems = [];
 while (looping) {
-  randomItem = items[getRandomInt(0, items.length - 1, lastItems)];
-  lastItems.push(randomItem);
+  let randomInt = getRandomInt(0, items.length - 1, lastItems);
+  let randomItem = items[randomInt];
+  lastItems.push(randomInt);
   if (lastItems.length > 5) {
     lastItems.shift();
   }
