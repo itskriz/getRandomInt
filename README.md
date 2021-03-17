@@ -57,6 +57,7 @@ Looping to fetch a random item from an array excluding the previously chosen ite
 lastItem = false;
 while (looping) {
   randomItem = items[getRandomInt(0, items.length - 1, lastItem)];
+  lastItem = randomItem;
 }
 ```
 
