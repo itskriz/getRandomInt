@@ -23,6 +23,10 @@ An integer. **Default value is 1.**
 
 An integer or array. **Default value is false.**
 
+### Return
+
+`int` An integer from within range *min*-*max* excluding any integers in *exclude*.
+
 ## Examples
 
 ### Example 1: Simple usage
@@ -37,7 +41,7 @@ Generate an integer from 1 through 10 except 5.
 
 `getRandomInt(1, 10, 5);`
 
-### Example 3:
+### Example 3: Excluding multiple integers
 
 Generate an integer from 1 through 10 except 4, 5, and 6.
 
