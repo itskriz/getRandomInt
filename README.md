@@ -55,7 +55,7 @@ Looping to fetch a random item from an array excluding the previously chosen ite
 ```
 lastItem = false;
 while (looping) {
-  randomItem = items[getRandomInt(0, items.length -1, lastItem)];
+  randomItem = items[getRandomInt(0, items.length - 1, lastItem)];
 }
 ```
 
@@ -66,7 +66,7 @@ Generating random integers in a loop and excluding the last 5 results.
 ```
 lastItems = [];
 while (looping) {
-  randomItem = items[getRandomInt(0, items.length -1, lastItems)];
+  randomItem = items[getRandomInt(0, items.length - 1, lastItems)];
   lastItems.push(randomItem);
   if (lastItems.length > 5) {
     lastItems.shift();
