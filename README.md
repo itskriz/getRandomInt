@@ -1,8 +1,9 @@
 # getRandomInt
 A JavaScript function designed to generate a random integer within a range supporting excluding numbers from result.
 
-## About
-Having run into a few scenarios where I've needed to generate a random number in a range repeatedly without getting the same results twice or more, I decided I needed an elegant solution to do so that I could repeat anywhere. **getRandomInt** is that result.
+## Installation
+
+Download and include a reference to getRandomInt.js in your website or simply copy and paste the contents of getRandomInt.js into your own JavaScripts file.
 
 ## How to Use
 
@@ -74,4 +75,6 @@ while (looping) {
 }
 ```
 
+## About
+Having run into a few scenarios where I've needed to generate a random number in a range repeatedly without getting the same results twice or more, I decided I needed an elegant solution to do so that I could repeat anywhere. **getRandomInt** is that result.
 
